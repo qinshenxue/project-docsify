@@ -1,0 +1,29 @@
+{
+  "name": "project-docsify",
+  "version": "1.0.0",
+  "description": "http://www.qinshenxue.com/article/20170725181019.html",
+  "main": "docsify-plugin-demo.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start":"http-server docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qinshenxue/project-docsify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qinshenxue/project-docsify/issues"
+  },
+  "homepage": "https://github.com/qinshenxue/project-docsify#readme",
+  "keywords": []
+}

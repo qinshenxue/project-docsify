@@ -14,7 +14,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-
+    <script>
+        window.$docsify = {
+            executeScript: true,
+            repo: 'https://github.com/qinshenxue/project-docsify'
+        }
+    </script>
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -22,14 +27,12 @@
     to improve your experience.</p>
 <![endif]-->
 <div id="app"></div>
-<script>
-    window.$docsify = {
-        executeScript: true,
-        repo: 'https://github.com/qinshenxue/jquery.pagination'
-    }
-</script>
+
 
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<!--<script src="//unpkg.com/vue"></script>-->
+<script src="//unpkg.com/docsify"></script>
+<!--<script src="//unpkg.com/docsify/lib/plugins/external-script.min.js"></script>-->
+<script src="https://rawgit.com/qinshenxue/project-docsify/master/docsify-plugin-demo.js"></script>
 </body>
 </html>
